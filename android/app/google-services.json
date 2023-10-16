@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "86657580921",
+    "project_id": "freedom-789a7",
+    "storage_bucket": "freedom-789a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86657580921:android:77eaf7e844bb0c2e4679a8",
+        "android_client_info": {
+          "package_name": "com.example.freedom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjxnzcfma9htcrXtdP3GyEhmxUxusSHjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
