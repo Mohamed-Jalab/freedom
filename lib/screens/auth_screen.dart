@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:freedom/core/assets.dart';
+import 'package:freedom/core/constant.dart';
+import 'package:freedom/screens/register_screen.dart';
 import 'package:freedom/widgets/custom_button.dart';
+
+import 'login_screen.dart';
 
 class AuthScreen extends StatelessWidget {
   const AuthScreen({super.key});
@@ -22,14 +26,24 @@ class AuthScreen extends StatelessWidget {
               SizedBox(height: MediaQuery.of(context).size.height * 0.06),
               CustomButton(
                 title: 'Login',
-                color: Colors.green,
-                onPressed: () {},
+                color: Constant.primaryColor,
+                onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                        builder: (context) => const LoginScreen()),
+                  );
+                },
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.02),
               CustomButton(
                 title: 'Register',
-                color: Colors.orange,
-                onPressed: () {},
+                color: Constant.seconderyColor,
+                onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                        builder: (context) => const RegisterScreen()),
+                  );
+                },
               ),
             ],
           ),
